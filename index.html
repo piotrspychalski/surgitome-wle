@@ -4918,9 +4918,9 @@ body{ font-family:"Source Sans 3", "Source Sans Pro", system-ui, -apple-system, 
 })();
 
 </script>
-<!-- Statystyki odwiedzin: GoatCounter (bez ciasteczek i danych osobowych), tylko na GitHub Pages; ?ref=qr itp. oznacza źródło wejścia -->
+<!-- Statystyki odwiedzin: GoatCounter (bez ciasteczek i danych osobowych), tylko na stronie publicznej (piotrspychalski.pl, GitHub Pages); ?ref=qr itp. oznacza źródło wejścia -->
 <script>
-if (/\.github\.io$/.test(location.hostname)) {
+if (/(^|\.)piotrspychalski\.pl$|\.github\.io$/.test(location.hostname)) {
   var gc = document.createElement('script');
   gc.async = true; gc.src = 'https://gc.zgo.at/count.js';
   gc.setAttribute('data-goatcounter', 'https://surgitome.goatcounter.com/count');
